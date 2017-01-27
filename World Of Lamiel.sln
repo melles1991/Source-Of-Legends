@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World Of Lamiel.Plugins", "World Of Lamiel.Plugins.csproj", "{EB4D1C11-A8F3-CE7A-CC79-A9C9C9CAD57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World Of Lamiel", "World Of Lamiel.csproj", "{E57BD10D-938A-6E42-F734-4D23196DEBD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World Of Lamiel.Editor.Plugins", "World Of Lamiel.Editor.Plugins.csproj", "{E1ADF65F-202E-CFF7-ADB9-85B66414D297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World Of Lamiel.Editor", "World Of Lamiel.Editor.csproj", "{7EB15AFB-7F4E-18DC-496F-B449AB646422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4D1C11-A8F3-CE7A-CC79-A9C9C9CAD57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4D1C11-A8F3-CE7A-CC79-A9C9C9CAD57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4D1C11-A8F3-CE7A-CC79-A9C9C9CAD57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4D1C11-A8F3-CE7A-CC79-A9C9C9CAD57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57BD10D-938A-6E42-F734-4D23196DEBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57BD10D-938A-6E42-F734-4D23196DEBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57BD10D-938A-6E42-F734-4D23196DEBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57BD10D-938A-6E42-F734-4D23196DEBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ADF65F-202E-CFF7-ADB9-85B66414D297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ADF65F-202E-CFF7-ADB9-85B66414D297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ADF65F-202E-CFF7-ADB9-85B66414D297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ADF65F-202E-CFF7-ADB9-85B66414D297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB15AFB-7F4E-18DC-496F-B449AB646422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB15AFB-7F4E-18DC-496F-B449AB646422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB15AFB-7F4E-18DC-496F-B449AB646422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB15AFB-7F4E-18DC-496F-B449AB646422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

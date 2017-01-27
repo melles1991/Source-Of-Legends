@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="World Of Lamiel.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\PlayerManager.cs">
+    <Files>
+      <File FileName="Assets\script\PlayerStats.cs" Line="12" Column="4" />
+      <File FileName="Assets\script\PlayerBarDisplay.cs" Line="51" Column="21" />
+      <File FileName="Assets\script\PlayerManager.cs" Line="58" Column="1" />
+      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="147" Column="14" />
+      <File FileName="..\Assets\Sripts\GameManager\PlayerManager.cs" Line="78" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
