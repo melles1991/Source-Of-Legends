@@ -80,7 +80,6 @@
      <Compile Include="Assets\Time of Day\Examples\TOD_RenderAtNight.cs" />
      <Compile Include="Assets\Time of Day\Examples\TOD_WeatherManager.cs" />
      <Compile Include="Assets\script\MouseOrbit.cs" />
-     <Compile Include="Assets\script\Step.cs" />
      <Compile Include="Assets\script\moveCam.cs" />
      <Compile Include="Assets\script\movePlayer.cs" />
      <Compile Include="Assets\script\players\FirstPersonController.cs" />
@@ -91,8 +90,9 @@
      <Compile Include="Assets\script\players\PlayerStats.cs" />
      <Compile Include="Assets\script\players\RigidbodyFirstPersonController.cs" />
      <Compile Include="Assets\script\players\Stats.cs" />
+     <Compile Include="Assets\script\skills\active\122334.cs" />
+     <Compile Include="Assets\script\skills\passive\CombatMedecine.cs" />
      <Compile Include="Assets\script\teleports\Teleport.cs" />
-     <Compile Include="Assets\script\weaponstat.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
