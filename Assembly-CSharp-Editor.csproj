@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EasyMenuKit\Editor\EasyMenuKitEditor.cs" />
      <Compile Include="Assets\Time of Day\Assets\Editor\TOD_AttributeInspector.cs" />
      <Compile Include="Assets\Time of Day\Assets\Editor\TOD_SkyInspector.cs" />
      <Compile Include="Assets\Time of Day\Assets\Editor\TOD_StarMesh.cs" />

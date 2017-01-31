@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class startMenu : MonoBehaviour 
 {
 	public void new_game()
 	{
-		Application.LoadLevel (1);
+		SceneManager.LoadScene (1);
 	}
 
 	public void exit_game()

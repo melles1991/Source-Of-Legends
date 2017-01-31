@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EasyMenuKit\EasyMenuKit.cs" />
      <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
      <Compile Include="Assets\Time of Day\Assets\Scripts\Doxyfile.cs" />
      <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Animation.cs" />
@@ -81,7 +82,6 @@
      <Compile Include="Assets\Time of Day\Examples\TOD_RenderAtNight.cs" />
      <Compile Include="Assets\Time of Day\Examples\TOD_WeatherManager.cs" />
      <Compile Include="Assets\script\MouseOrbit.cs" />
-     <Compile Include="Assets\script\miniMap\MiniMapGUI.cs" />
      <Compile Include="Assets\script\moveCam.cs" />
      <Compile Include="Assets\script\movePlayer.cs" />
      <Compile Include="Assets\script\players\FirstPersonController.cs" />
@@ -92,6 +92,7 @@
      <Compile Include="Assets\script\players\PlayerStats.cs" />
      <Compile Include="Assets\script\players\RigidbodyFirstPersonController.cs" />
      <Compile Include="Assets\script\players\Stats.cs" />
+     <Compile Include="Assets\script\players\VerDisplay.cs" />
      <Compile Include="Assets\script\skills\active\122334.cs" />
      <Compile Include="Assets\script\skills\passive\CombatMedecine.cs" />
      <Compile Include="Assets\script\startMenu.cs" />
