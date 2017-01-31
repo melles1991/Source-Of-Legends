@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7cc58dc384ec89640b9385cdee6c8d2e
-timeCreated: 1485206818
+guid: 76bfe371c9876f64cbf1e34e34a2f042
+timeCreated: 1485892902
 licenseType: Free
 TrueTypeFontImporter:
   serializedVersion: 4
@@ -9,9 +9,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Matsura
+  fontName: SAO UI Welcome
   fontNames:
-  - Matsura
+  - SAO UI Welcome
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
