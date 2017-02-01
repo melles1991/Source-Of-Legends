@@ -10,15 +10,16 @@ public class CombatMedecine
       public int LevelCm = _LEVELCM;
       
       const float _REGENHP = 0.6f; // начальное количество востановления HP
-      const float _TIMEREGEN = 10; // время востановления HP
+      const float _TIMEREGEN = 10f; // время востановления HP
       public float regenHp = _REGENHP; 
       public float timeRegen = _TIMEREGEN;
-		public CombatMedecine ()
+
+      public CombatMedecine ()
 		{
 			this.newregenhp ();
 
 		}
-		public CombatMedecine (int LevelCm) //конструктор класса с о всеми значениями
+		public CombatMedecine (int LevelCm, int regenHp, int timeRegen) //конструктор класса с о всеми значениями
 		{
 			this.LevelCm = LevelCm; //начальный уровень
 			this.regenHp = regenHp; // востановление HP
@@ -29,11 +30,13 @@ public class CombatMedecine
 
     public void lvlUPcm() //функция вызываемая при повышении уровня
 		{
-			this.LevelCm += 1; //уровень устанавливаем +1
+			this.LevelCm += 1; //уровень устанавливаем +
 		}
-    public void newregenhp()
+
+		public void newregenhp()
 		{
-			this.regenHp =this.regenHp  + 6/10; // перещет по уровню
+			this.regenHp = regenHp  + _REGENHP; // перещет по уровню
 		}
+
     }
 }

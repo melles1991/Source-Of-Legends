@@ -41,13 +41,13 @@ namespace stats { //Пространство имен stats
 //			const float _FASTWALK_SPEED = 2.5f;
 			const float _RUN_SPEED = 5.8f;
 			const float _SWIM_SPEED = 3.2f;
-			const float _FLY_SPEED = 7.5f;
+//			const float _FLY_SPEED = 7.5f;
 
 			public float WalkSpeed = _WALK_SPEED; 
 //			public float FastWalkSpeed = _FASTWALK_SPEED; 
 			public float RunSpeed = _RUN_SPEED; 
 			public float SwimSpeed = _SWIM_SPEED; 
-			public float FlySpeed = _FLY_SPEED; 
+//			public float FlySpeed = _FLY_SPEED; 
 
 	
 
@@ -91,13 +91,16 @@ namespace stats { //Пространство имен stats
 			this.newenergy (); //считаем кол-во маны
 			this.newspeed ();
 		}
-		public Stats(int Level, int EXP, int Agility, int Strengh, int Stamina) //конструктор класса с о всеми значениями
+		public Stats(int Level, int EXP, int Agility, int Strengh, int Stamina, int WalkSpeed, int RunSpeed, int SwimSpeed) //конструктор класса с о всеми значениями
 		{
 			this.Level = Level; //начальный уровень
 			this.EXP = EXP; //необходимое кол-во опыта для следующего уровня
 			this.Agility = Agility;
 			this.Strengh = Strengh; //начальное кол-во силы
 			this.Stamina = Stamina; //начальное кол-во живучисти
+			this.WalkSpeed = WalkSpeed;
+			this.RunSpeed = RunSpeed;
+			this.SwimSpeed = SwimSpeed;
 			this.newenergy (); //Считаем енергию
 			this.newdmg (); //Считаем урон
 			this.newhp (); //считаем кол-во жизни
@@ -111,8 +114,8 @@ namespace stats { //Пространство имен stats
 		}
 		public void newdmg() //функция пересчета урона
 		{
-			this.MinDamage =((this.Agility/100)  + (this.Strengh + 100)) / 100; //минимальный урон
-			this.MaxDamage = ((this.Agility/100) + (this.Strengh + 100)) / 100; //максимальный урон
+			this.MinDamage =((this.Agility/10)  + (this.Strengh + 100)) / 10 - (this.MaxDamage *10/100); //минимальный урон
+			this.MaxDamage = ((this.Agility/10) + (this.Strengh + 100)) / 10; //максимальный урон
 		}
 		public void newhp() //Пересчет кол-ва жизней
 		{
@@ -127,7 +130,7 @@ namespace stats { //Пространство имен stats
 			this.WalkSpeed = _WALK_SPEED + ( this.Agility / 100);
 			this.RunSpeed = _RUN_SPEED + (this.Agility / 100);
 			this.SwimSpeed = _SWIM_SPEED + ( this.Agility / 100) ; 
-			this.FlySpeed = _FLY_SPEED + (this.Agility / 100);
+//			this.FlySpeed = _FLY_SPEED + (this.Agility / 100);
 		}
 	}
 }
