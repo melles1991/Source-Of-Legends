@@ -3,11 +3,13 @@ using System.Collections;
 using stats; //Используем пространство stats
 using UnityStandardAssets.Utility;
 using statsCM;
+using statsFS;
 
 
 public class PlayerStats : MonoBehaviour {
 	public Stats stats = new Stats(1, 600, 4, 2, 3,0,0,0);
 	public CombatMedecine statsCoM = new CombatMedecine(1, 0, 10);//Объявляем новый объект Stats
+	public FightingSpirit statsFS = new FightingSpirit(1, 0);//Объявляем новый объект Stats
 	public static bool death; //Глобальная переменная отвечающа нам жив ли персонаж
 	int pointstat = 0; //кол-во поинтов дающихся при повышении
 	int showstat = 0; //Отображать ли окно со статами
@@ -87,7 +89,7 @@ public class PlayerStats : MonoBehaviour {
 			stats.lvlUP(); //повышаем уровень
 			curEXP=0; //кол-во опыта ставим 0
 			pointstat += 5; //Добавляем очки статов
-			pointskill += 3;
+			pointskill += 10;
 			CurLvl = stats.Level;
 		}
 	}
@@ -157,6 +159,9 @@ public class PlayerStats : MonoBehaviour {
 			GUI.Box (new Rect(310, 70, 300, 300), "SKILL");
 			GUI.Label (new Rect(350, 95,300,300), " CombatMedecine " );
 			GUI.Label (new Rect(310, 110,300,300), " Lv. "+ statsCoM.LevelCm + " HpRegen:  " + statsCoM.regenHp);
+			GUI.Label (new Rect(350, 115,300,300), " " );
+			GUI.Label (new Rect(350, 130,300,300), "  FightingSpirit " );
+			GUI.Label (new Rect(310, 145,300,300), " Lv. "+ statsFS.LevelFs + " AddBlockChance:  " + statsFS.addBlockChance);
 
 
 
@@ -170,6 +175,15 @@ public class PlayerStats : MonoBehaviour {
 						pointskill -= 1;
 						statsCoM.LevelCm += 1;
 						statsCoM.newregenhp();
+					}
+				}
+				if(GUI.Button (new Rect(480,120,20,20), "+")) //Для силы
+				{
+					if(pointskill > 0)
+					{
+						pointskill -= 1;
+						statsFS.LevelFs += 1;
+						statsFS.newaddBlockChance();
 					}
 				}
 			}
