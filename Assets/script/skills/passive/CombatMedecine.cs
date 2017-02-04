@@ -9,7 +9,7 @@ public class CombatMedecine
       const int _LEVELCM = 1; // начальный уровень скила
       public int LevelCm = _LEVELCM;
       
-      const float _REGENHP = 0.6f; // начальное количество востановления HP
+      const float _REGENHP = 0.636f; // начальное количество востановления HP
       const float _TIMEREGEN = 10f; // время востановления HP
       public float regenHp = _REGENHP; 
       public float timeRegen = _TIMEREGEN;

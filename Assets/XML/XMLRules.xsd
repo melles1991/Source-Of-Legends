@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created with Liquid XML Studio 6.1.18.0 - FREE Community Edition (http://www.liquid-technologies.com)-->
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Hesham Fouad (VRSonic, Inc) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="XMLRules">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="RuleBase" type="RuleBaseType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ScriptReference">
+		<xs:sequence>
+			<xs:element name="ScriptName" type="xs:string"/>
+			<xs:sequence>
+				<xs:element name="Parameter" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name"/>
+							<xs:element name="Type" type="xs:string"/>
+							<xs:element name="Value" type="ConstantType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RuleBaseType">
+		<xs:sequence>
+			<xs:element name="Variables" type="VariableType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Rules" type="RuleType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>A rule to determine which approach and EIT is most appropriate given a set of conditions</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RelationalOperator">
+		<xs:choice>
+			<xs:element name="Equals"/>
+			<xs:element name="NotEquals"/>
+			<xs:element name="PartOf"/>
+			<xs:element name="NotPartOf"/>
+			<xs:element name="LessThan"/>
+			<xs:element name="LessThanOrEquals"/>
+			<xs:element name="GreaterThan"/>
+			<xs:element name="GreaterThanOrEquals"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="LogicalOperator">
+		<xs:choice>
+			<xs:element name="And"/>
+			<xs:element name="Or"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="UnaryOperator">
+		<xs:choice>
+			<xs:element name="Not"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="ConstantType">
+		<xs:choice>
+			<xs:element name="Boolean" type="xs:boolean"/>
+			<xs:element name="Integer" type="xs:integer"/>
+			<xs:element name="Float" type="xs:float"/>
+			<xs:element name="String" type="xs:string"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="Value">
+		<xs:choice>
+			<xs:element name="Variable" type="VariableType"/>
+			<xs:element name="Constant" type="ConstantType" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="ArithemticOperator">
+		<xs:choice>
+			<xs:element name="Add"/>
+			<xs:element name="Subtract"/>
+			<xs:element name="Divide"/>
+			<xs:element name="Multiply"/>
+			<xs:element name="Power"/>
+			<xs:element name="Log"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="ArithmeticExpression">
+		<xs:choice>
+			<xs:element name="SubExpression">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="LHSArithmeticExpression" type="ArithmeticExpression"/>
+						<xs:element name="ArithmeticOperator" type="ArithemticOperator"/>
+						<xs:element name="RHSArithmeticExpression" type="ArithmeticExpression"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Value" type="Value"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="VariableType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="Type" type="xs:integer"/>
+			<xs:element name="Value" type="ConstantType" minOccurs="0"/>
+			<xs:element name="UpdateScript" type="ScriptReference" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LogicalExpression">
+		<xs:choice>
+			<xs:element name="Unary">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="UnaryOperator" type="UnaryOperator"/>
+						<xs:element name="LogicalExpression" type="LogicalExpression"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Relational">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="LHSArithmeticExpression" type="ArithmeticExpression"/>
+						<xs:element name="RelationalOperator" type="RelationalOperator"/>
+						<xs:element name="RHSArithmeticExpression" type="ArithmeticExpression"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Logical">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="LHSLogicalExpression" type="LogicalExpression"/>
+						<xs:element name="LogicalOperator" type="LogicalOperator"/>
+						<xs:element name="RHSLogicalExpression" type="LogicalExpression"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Value" type="Value"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="RuleType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="Condition" type="LogicalExpression">
+				<xs:annotation>
+					<xs:documentation>Condition for the selection of this approach (training objective, emotional state and performance)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Action" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Certainty" type="xs:float">
+							<xs:annotation>
+								<xs:documentation>Certainty associated with this Action ([SF] What's the purpose of this?</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:choice>
+							<xs:element name="CallScript" type="ScriptReference">
+								<xs:annotation>
+									<xs:documentation>Call a Script</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="ChangeState" type="AssignmentExpression">
+								<xs:annotation>
+									<xs:documentation>Change a variable in the State</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:choice>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Priority" type="xs:integer">
+				<xs:annotation>
+					<xs:documentation>Priority of the rule (to resolve conflicts if more than one rule is active, e.g. "trigger only one strategy with visual impact" would take precendence over "add fog" when smoke was aready added)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AssignmentExpression">
+		<xs:sequence>
+			<xs:element name="Variable" type="VariableType"/>
+			<xs:element name="Expression" type="ArithmeticExpression"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

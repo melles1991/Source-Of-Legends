@@ -47,10 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\EasyMenuKit\EasyMenuKit.cs" />
-     <Compile Include="Assets\Pause Menu Assets\Scripts\Pausemenu\PauseManager.cs" />
-     <Compile Include="Assets\Pause Menu Assets\Scripts\Pausemenu\SaveSettings.cs" />
-     <Compile Include="Assets\Pause Menu Assets\Scripts\Utlities\CoroutineUtlities.cs" />
-     <Compile Include="Assets\Pause Menu Assets\Scripts\Utlities\Rotate.cs" />
+     <Compile Include="Assets\Fantasy AI Free Edition\Scripts\AI Scripts\Cull.cs" />
+     <Compile Include="Assets\Fantasy AI Free Edition\Scripts\AI Scripts\DistanceActive.cs" />
+     <Compile Include="Assets\Fantasy AI Free Edition\Scripts\AI Scripts\FreeAI.cs" />
+     <Compile Include="Assets\Fantasy AI Free Edition\Scripts\AI Scripts\Health.cs" />
+     <Compile Include="Assets\Fantasy AI Free Edition\Scripts\Player\AICount.cs" />
+     <Compile Include="Assets\Fantasy AI Free Edition\Scripts\Player\HealthPotion.cs" />
+     <Compile Include="Assets\Fantasy AI Free Edition\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Particle Ribbon\Scripts\ReverseNormals.cs" />
      <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
      <Compile Include="Assets\Time of Day\Assets\Scripts\Doxyfile.cs" />
      <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Animation.cs" />
@@ -85,7 +89,37 @@
      <Compile Include="Assets\Time of Day\Examples\TOD_RenderAtDay.cs" />
      <Compile Include="Assets\Time of Day\Examples\TOD_RenderAtNight.cs" />
      <Compile Include="Assets\Time of Day\Examples\TOD_WeatherManager.cs" />
+     <Compile Include="Assets\XML\Altova\AssemblyInfo.cs" />
+     <Compile Include="Assets\XML\Altova\Document.cs" />
+     <Compile Include="Assets\XML\Altova\Node.cs" />
+     <Compile Include="Assets\XML\Altova\SchemaTypes.cs" />
+     <Compile Include="Assets\XML\XMLRules\ActionType.cs" />
+     <Compile Include="Assets\XML\XMLRules\ArithemticOperator.cs" />
+     <Compile Include="Assets\XML\XMLRules\ArithmeticExpression.cs" />
+     <Compile Include="Assets\XML\XMLRules\AssemblyInfo.cs" />
+     <Compile Include="Assets\XML\XMLRules\AssignmentExpression.cs" />
+     <Compile Include="Assets\XML\XMLRules\CallScriptType.cs" />
+     <Compile Include="Assets\XML\XMLRules\ConstantType.cs" />
+     <Compile Include="Assets\XML\XMLRules\LogicalExpression.cs" />
+     <Compile Include="Assets\XML\XMLRules\LogicalOperator.cs" />
+     <Compile Include="Assets\XML\XMLRules\LogicalType.cs" />
+     <Compile Include="Assets\XML\XMLRules\ParameterType.cs" />
+     <Compile Include="Assets\XML\XMLRules\RelationalOperator.cs" />
+     <Compile Include="Assets\XML\XMLRules\RelationalType.cs" />
+     <Compile Include="Assets\XML\XMLRules\RuleBaseType.cs" />
+     <Compile Include="Assets\XML\XMLRules\RuleType.cs" />
+     <Compile Include="Assets\XML\XMLRules\ScriptReference.cs" />
+     <Compile Include="Assets\XML\XMLRules\SubExpressionType.cs" />
+     <Compile Include="Assets\XML\XMLRules\UnaryOperator.cs" />
+     <Compile Include="Assets\XML\XMLRules\UnaryType.cs" />
+     <Compile Include="Assets\XML\XMLRules\Value.cs" />
+     <Compile Include="Assets\XML\XMLRules\VariableType.cs" />
+     <Compile Include="Assets\XML\XMLRules\XMLRulesDoc.cs" />
+     <Compile Include="Assets\XML\XMLRules\XMLRulesType.cs" />
      <Compile Include="Assets\script\MouseOrbit.cs" />
+     <Compile Include="Assets\script\inventory\Item.cs" />
+     <Compile Include="Assets\script\inventory\Library.cs" />
+     <Compile Include="Assets\script\inventory\Weapon.cs" />
      <Compile Include="Assets\script\moveCam.cs" />
      <Compile Include="Assets\script\movePlayer.cs" />
      <Compile Include="Assets\script\players\FirstPersonController.cs" />
@@ -104,7 +138,6 @@
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
-     <None Include="Assets\Pause Menu Assets\Fonts\open-sans\Apache License.txt" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\Time of Day\Assets\Shaders\Moon.shader" />
@@ -124,6 +157,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\RAINShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
      <None Include="Assets\Time of Day\Assets\Shaders\Skybox.shader" />
@@ -136,13 +170,17 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Time of Day\Assets\Shaders\PP God Rays.shader" />
+     <None Include="Assets\Flee-Chase Example\ExampleRulesBase.xml" />
      <None Include="Assets\Time of Day\Assets\Shaders\Cloud Layer.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\Time of Day\Assets\Shaders\PP Screen Clear.shader" />
      <None Include="Assets\UI\miniMap\miniMapSheder.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\AI\BehaviorTrees\123.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\Time of Day\Assets\Shaders\Stars.shader" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\Set-Variable Example\TestRelational.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
@@ -166,13 +204,14 @@
      <None Include="Assets\Time of Day\Assets\Shaders\Cloud Billboard Near.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Fantasy AI Free Edition\README.txt" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
-     <None Include="Assets\Pause Menu Assets\Fonts\exo\SIL Open Font License.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Fantasy AI Free Edition\Models\SkeletonData\animations.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\Time of Day\Assets\Shaders\TOD_Clouds.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
@@ -193,6 +232,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Particle Ribbon\readme_Simple_Particle_Ribbon.txt" />
      <None Include="Assets\Rocks and Boulders 2\Shaders\Desaturate\DesaturateEffect.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
      <None Include="Assets\Time of Day\Assets\Shaders\Clear Alpha.shader" />
@@ -226,6 +266,12 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>C:/Users/Sterben/Documents/World-Of-Lamiel/Assets/RAIN/RAIN.dll</HintPath>
+ </Reference>
+ <Reference Include="RAINMetaform">
+ <HintPath>C:/Users/Sterben/Documents/World-Of-Lamiel/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
