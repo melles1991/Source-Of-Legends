@@ -9,20 +9,20 @@ public class FightingSpirit
       const int _LEVELFS = 1; // начальный уровень скила
       public int LevelFs = _LEVELFS;
       
-		const float _ADDBLOCKCHANCE  = 0.2f; // прибавляет к блоку
-		public float addBlockChance  = _ADDBLOCKCHANCE;
+		const float _MISS_CHANCE  = 0.2f; // прибавляет к блоку
+		public float addMissChance  = _MISS_CHANCE;
 
 		public FightingSpirit ()
 		{
-			this.newaddBlockChance ();
+			this.newaddMissChance ();
 
 		}
-		public FightingSpirit(int LevelFs, int addBlockChance) //конструктор класса с о всеми значениями
+		public FightingSpirit(int LevelFs, int addMissChance) //конструктор класса с о всеми значениями
 		{
 			this.LevelFs = LevelFs; //начальный уровень
-			this.addBlockChance = addBlockChance; 
+			this.addMissChance = addMissChance; 
 			
-			this.newaddBlockChance (); 
+			this.newaddMissChance (); 
 		}
 
     public void lvlUPFs() //функция вызываемая при повышении уровня
@@ -30,9 +30,9 @@ public class FightingSpirit
 			this.LevelFs += 1; //уровень устанавливаем +
 		}
 
-		public void newaddBlockChance()
+		public void newaddMissChance()
 		{
-			this.addBlockChance = addBlockChance  + _ADDBLOCKCHANCE; // перещет по уровню
+			this.addMissChance = addMissChance  + _MISS_CHANCE; // перещет по уровню
 		}
 
     }
