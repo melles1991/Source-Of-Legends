@@ -3,7 +3,7 @@ using UnityEngine;
 using System.Collections;
 
 
-namespace statsFS {
+namespace skillPassFS {
 public class FightingSpirit
 {
       const int _LEVELFS = 1; // начальный уровень скила
