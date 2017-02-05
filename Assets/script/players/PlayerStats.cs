@@ -2,8 +2,8 @@ using UnityEngine;
 using System.Collections;
 using stats; //Используем пространство stats
 using UnityStandardAssets.Utility;
-using statsCM;
-using statsFS;
+using skillPassCM;
+using skillPassFS;
 
 
 public class PlayerStats : MonoBehaviour {
