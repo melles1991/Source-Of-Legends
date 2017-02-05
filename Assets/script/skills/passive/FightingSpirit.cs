@@ -32,7 +32,7 @@ public class FightingSpirit
 
 		public void newaddMissChance()
 		{
-			this.addMissChance = addMissChance  + _MISS_CHANCE; // перещет по уровню
+			this.addMissChance = MissChance  + _MISS_CHANCE; // перещет по уровню
 		}
 
     }
