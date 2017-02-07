@@ -2,8 +2,8 @@ using UnityEngine;
 using System.Collections;
 using stats; //Используем пространство stats
 using UnityStandardAssets.Utility;
-using statsCM;
-using statsFS;
+using skillPassCM;
+using skillPassFS;
 
 
 public class PlayerStats : MonoBehaviour {
@@ -99,13 +99,13 @@ public class PlayerStats : MonoBehaviour {
 		{
 			//Рисуем наши статы
 			GUI.Box (new Rect(10, 70, 300, 300), "STATS");
-			GUI.Label (new Rect(10, 95,300,300), " Level: "+stats.Level);
-			GUI.Label (new Rect(10, 110,300,300), " HealthMax: "+(int)stats.HealthMax);
-			GUI.Label (new Rect(10, 125,300,300), " EnergyMax: "+(int)stats.EnergyMax);
-			GUI.Label (new Rect(10, 140,300,300), " EXP: "+stats.EXP);
-			GUI.Label (new Rect(10, 165,300,300), " Stamina: "+(int)stats.Stamina);
-			GUI.Label (new Rect(10, 180,300,300), " Strengh: "+(int)stats.Strengh);
-			GUI.Label (new Rect(10, 195,300,300), " Agility: "+(int)stats.Agility);
+			GUI.Label (new Rect(10, 95,300,300), " Уровень: "+stats.Level);
+			GUI.Label (new Rect(10, 110,300,300), " Жизнь: "+(int)stats.HealthMax);
+			GUI.Label (new Rect(10, 125,300,300), " Энергия: "+(int)stats.EnergyMax);
+			GUI.Label (new Rect(10, 140,300,300), " Опыт: "+stats.EXP);
+			GUI.Label (new Rect(10, 165,300,300), " Выносливость: "+(int)stats.Stamina);
+			GUI.Label (new Rect(10, 180,300,300), " Сила: "+(int)stats.Strengh);
+			GUI.Label (new Rect(10, 195,300,300), " Ловкость: "+(int)stats.Agility);
 			GUI.Label (new Rect(10, 230,300,300), " minDamage: "+stats.MinDamage);
 			GUI.Label (new Rect(10, 245,300,300), " maxDamage: "+stats.MaxDamage);
 			GUI.Label (new Rect(10, 265,300,300), " WalkSpeed: "+stats.WalkSpeed);
@@ -157,11 +157,11 @@ public class PlayerStats : MonoBehaviour {
 		{
 			//Рисуем наши статы
 			GUI.Box (new Rect(310, 70, 300, 300), "SKILL");
-			GUI.Label (new Rect(350, 95,300,300), " CombatMedecine " );
-			GUI.Label (new Rect(310, 110,300,300), " Lv. "+ statsCoM.LevelCm + " HpRegen:  " + statsCoM.regenHp);
+			GUI.Label (new Rect(350, 95,300,300), " Боевая медицина " );
+			GUI.Label (new Rect(310, 110,300,300), " Ур. "+ statsCoM.LevelCm + " HpRegen:  " + statsCoM.regenHp);
 			GUI.Label (new Rect(350, 115,300,300), " " );
-			GUI.Label (new Rect(350, 130,300,300), "  FightingSpirit " );
-			GUI.Label (new Rect(310, 145,300,300), " Lv. "+ statsFS.LevelFs + " AddBlockChance:  " + statsFS.addBlockChance);
+			GUI.Label (new Rect(350, 130,300,300), "  Боевой дух " );
+			GUI.Label (new Rect(310, 145,300,300), " Ур. "+ statsFS.LevelFs + " AddBlockChance:  " + statsFS.addBlockChance);
 
 
 

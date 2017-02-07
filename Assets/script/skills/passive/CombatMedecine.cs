@@ -3,7 +3,7 @@ using UnityEngine;
 using System.Collections;
 
 
-namespace statsCM {
+namespace skillPassCM {
 public class CombatMedecine 
 {
       const int _LEVELCM = 1; // начальный уровень скила

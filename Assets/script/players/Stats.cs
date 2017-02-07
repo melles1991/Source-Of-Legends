@@ -71,9 +71,9 @@ namespace stats { //Пространство имен stats
 			const float _MAX_FOLLOWING_DISTANCE = 20f;
 			const float _STAY_ON_NEW_POSITION = 15f;
 
-			public float MaxWalkingDistance { get { return _MAX_DISTANCE; }}
-			public float MaxFollowingDistance { get { return _MAX_FOLLOWING_DISTANCE; }}
-			public float StayOnPosition { get { return _STAY_ON_NEW_POSITION; }}
+			public float MaxWalkingDistance =_MAX_DISTANCE;
+			public float MaxFollowingDistance =_MAX_FOLLOWING_DISTANCE;
+			public float StayOnPosition =_STAY_ON_NEW_POSITION;
 
 
 
@@ -81,9 +81,9 @@ namespace stats { //Пространство имен stats
 			const float _BLOCK_CHANCE = 2.5f; //блок
 			const float _PARRY_CHANCE = 1.75f; //парирование
 
-			public float MissChance { get { return _MISS_CHANCE; }}
-			public float BlockChance { get { return _BLOCK_CHANCE; }}
-			public float ParryChance { get { return _PARRY_CHANCE; }}
+			public float MissChance =_MISS_CHANCE;
+			public float BlockChance =_BLOCK_CHANCE;
+			public float ParryChance =_PARRY_CHANCE;
 		public Stats()
 		{
 			this.newdmg (); //Считаем урон
