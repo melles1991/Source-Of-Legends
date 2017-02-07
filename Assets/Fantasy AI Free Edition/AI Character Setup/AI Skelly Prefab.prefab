@@ -1098,7 +1098,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100064}
-  m_LocalRotation: {x: -0.5732303, y: -0.2648423, z: 0.7748718, w: -0.028966712}
+  m_LocalRotation: {x: -0.5732304, y: -0.26484233, z: 0.7748719, w: -0.028966714}
   m_LocalPosition: {x: -0.0067298124, y: 0.017950248, z: 0.013256185}
   m_LocalScale: {x: 1.0000001, y: 1, z: 1}
   m_Children:
@@ -1373,22 +1373,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21527ddb585436f45ab8fefe69794252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AICharacter: {fileID: 400004}
+  AICharacter: {fileID: 0}
   CharacterCollisionLayer: 15
   EnableCombat: 1
   Target: {fileID: 0}
   turnspeed: 5
-  runspeed: 9
+  runspeed: 4
   Damage: 10
   AttackSpeed: 1
-  AttackRange: 4
-  RunAnimation: {fileID: 7400004, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
-  IdleAnimation: {fileID: 7400006, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
-  AttackAnimation: {fileID: 7400008, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
-  DeathAnimation: {fileID: 7400012, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
+  AttackRange: 5
   IsDead: 0
-  EnableFollowNodePathFinding: 1
-  DebugShowPath: 1
+  EnableFollowNodePathFinding: 0
+  DebugShowPath: 0
   DistanceNodeChange: 1.5
   Follownodes: []
 --- !u!114 &11400002
@@ -1418,6 +1414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CullAtStart: 1
+  rend: {fileID: 0}
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1
