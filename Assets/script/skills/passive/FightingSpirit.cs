@@ -9,8 +9,8 @@ public class FightingSpirit
       const int _LEVELFS = 1; // начальный уровень скила
       public int LevelFs = _LEVELFS;
       
-		const float _MISS_CHANCE  = 0.2f; // прибавляет к блоку
-		public float addMissChance  = _MISS_CHANCE;
+		const float _ADD_MISS_CHANCE  = 0.2f; // прибавляет к блоку
+		public float addMissChance  = _ADD_MISS_CHANCE;
 
 		public FightingSpirit ()
 		{
@@ -32,7 +32,7 @@ public class FightingSpirit
 
 		public void newaddMissChance()
 		{
-			this.addMissChance = MissChance  + _MISS_CHANCE; // перещет по уровню
+			this.addMissChance = addMissChance  + _ADD_MISS_CHANCE; // перещет по уровню
 		}
 
     }

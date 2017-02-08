@@ -89,7 +89,6 @@
      <Compile Include="Assets\Time of Day\Examples\TOD_RenderAtDay.cs" />
      <Compile Include="Assets\Time of Day\Examples\TOD_RenderAtNight.cs" />
      <Compile Include="Assets\Time of Day\Examples\TOD_WeatherManager.cs" />
-     <Compile Include="Assets\XML\Altova\AssemblyInfo.cs" />
      <Compile Include="Assets\XML\Altova\Document.cs" />
      <Compile Include="Assets\XML\Altova\Node.cs" />
      <Compile Include="Assets\XML\Altova\SchemaTypes.cs" />
@@ -130,6 +129,7 @@
      <Compile Include="Assets\script\players\PlayerStats.cs" />
      <Compile Include="Assets\script\players\RigidbodyFirstPersonController.cs" />
      <Compile Include="Assets\script\players\Stats.cs" />
+     <Compile Include="Assets\script\players\StatsDisplay.cs" />
      <Compile Include="Assets\script\players\VerDisplay.cs" />
      <Compile Include="Assets\script\skills\active\122334.cs" />
      <Compile Include="Assets\script\skills\passive\CombatMedecine.cs" />
