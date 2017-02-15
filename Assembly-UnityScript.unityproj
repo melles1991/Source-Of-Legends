@@ -46,6 +46,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cleaver Warrior\Scripts\Character3rdPerson.js" />
+     <Compile Include="Assets\Cleaver Warrior\Scripts\CharacterCamera.js" />
+     <Compile Include="Assets\Cleaver Warrior\Scripts\CopyAnimation.js" />
+     <Compile Include="Assets\Cleaver Warrior\Scripts\Delete Triangles Script\RestoreTriangles.js" />
+     <Compile Include="Assets\Cleaver Warrior\Scripts\Delete Triangles Script\TrianglesDelete.js" />
+     <Compile Include="Assets\Cleaver Warrior\Scripts\Delete Triangles Script\TrianglesDeleteBounds.js" />
+     <Compile Include="Assets\Cleaver Warrior\Scripts\ResetPosition.js" />
+     <Compile Include="Assets\Cleaver Warrior\Scripts\mipmap2.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\CameraWaterFog.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\CopyMesh.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\CreateFloor.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\DisableParticleDistance.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\Fog.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\HideCursor.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\LabelTransform.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\ResetLevel.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\Sun.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\TestWorldLabels.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\WaterAreas.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\WaterFlipNormals.js" />
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\WaterWave.js" />
      <Compile Include="Assets\script\MainMenu.js" />
      <Compile Include="Assets\script\MouseOrbit.js" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -102,6 +123,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
      <None Include="Assets\GreatswordofFrozenNight\SpecLightDiffuse.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Cleaver Warrior\Test World\Materials\FX-Water Simple.shader" />
      <None Include="Assets\Time of Day\Assets\Meshes\Stars\Stars.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
