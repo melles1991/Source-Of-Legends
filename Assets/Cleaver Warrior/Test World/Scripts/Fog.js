@@ -19,7 +19,7 @@ function Update () {
 		if(distanceToCamera < startFadeDistance){
 			var colorFade : float = Mathf.Lerp(0, thisParticle.color.r, distanceToCamera / startFadeDistance) / 255;
 			if(colorFade == 0.0)
-				thisParticle.lifetime = 0.0;
+				thisParticle.remainingLifetime = 0.0;
 			else
 				thisParticle.color = Color(colorFade, colorFade, colorFade);
 		}

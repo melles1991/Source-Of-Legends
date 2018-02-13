@@ -17,11 +17,11 @@ function Update () {
 	}
 	var currentDistance : float = Vector3.Distance(transform.position, relativeCamera.position);
 	if(currentDistance < distance && !play){
-		particleSystem.Play();
+		GetComponent.<ParticleSystem>().Play();
 		play = true;
 	}
 	else{
-		particleSystem.Stop();
+		GetComponent.<ParticleSystem>().Stop();
 		play = false;
 	}
 }

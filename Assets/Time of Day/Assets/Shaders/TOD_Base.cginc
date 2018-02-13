@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 #ifndef TOD_BASE_INCLUDED
 #define TOD_BASE_INCLUDED
 
@@ -66,7 +68,7 @@ uniform float4 TOD_kRadius;
 uniform float4 TOD_kScale;
 
 // Vertex transform used by the entire sky dome
-#define TOD_TRANSFORM_VERT(vert) mul(UNITY_MATRIX_MVP, vert)
+#define TOD_TRANSFORM_VERT(vert) UnityObjectToClipPos(vert)
 
 // UV rotation matrix constructor
 #define TOD_ROTATION_UV(angle) float2x2(cos(angle), -sin(angle), sin(angle), cos(angle))

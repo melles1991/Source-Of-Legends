@@ -230,7 +230,7 @@ function LedgeClimb(){
 			hits = Physics.RaycastAll(ray);
 			var closestHit : RaycastHit;
 			for(var hit : RaycastHit in hits){
-				if(hit.collider == collider) continue;
+				if(hit.collider == GetComponent.<Collider>()) continue;
 				if(closestHit == null) closestHit = hit;
 				var distanceToSurfacePoint : float = Vector3.Distance(surfaceHit.point, hit.point);
 				if(closestHit != null && distanceToSurfacePoint < Vector3.Distance(closestHit.point, surfaceHit.point)){
@@ -264,7 +264,7 @@ function LedgeClimb(){
 			targetSpeedInput = 0.0;
 			targetStrafeInput = 0.0;
 			targetSwimVerticalInput = 0.0;
-			rigidbody.velocity = Vector3.zero; 
+			GetComponent.<Rigidbody>().velocity = Vector3.zero; 
 		}
 		
 		if(!Input.GetButton(jumpButton)){
@@ -279,7 +279,7 @@ function LedgeClimb(){
 			var closestEdgeHit : RaycastHit;//Closest to hand dangling position. 
 			var foundStandPoint : boolean = false;
 			for(var hit : RaycastHit in hits){
-				if(hit.collider == collider) continue;
+				if(hit.collider == GetComponent.<Collider>()) continue;
 				if(hit.collider.isTrigger) continue;
 				var distanceToLedge : float = Vector3.Distance(hit.point, dangleHandPosition);
 				if(distanceToLedge > 1.5) continue;
@@ -336,7 +336,7 @@ function GroundDistance(){
 	for(var groundHit : RaycastHit in hits){
 		var thisDistance : float = groundHit.distance - groundDistanceOffetRayOrigin;
 		if(!groundHit.collider.isTrigger 
-		&& groundHit.collider != collider
+		&& groundHit.collider != GetComponent.<Collider>()
 		&& thisDistance < groundDistance){
 			groundDistance = thisDistance;
 		}
@@ -372,7 +372,7 @@ function Jump(){
 	jumpImpulseCrouch = 0.0;
 	var applyJump : boolean = false;
 	if(Input.GetButton(jumpButton)){
-		if(groundDistance < maxJumpGroundDistance && rigidbody.velocity.y < maxJumpVerticalVelocity){
+		if(groundDistance < maxJumpGroundDistance && GetComponent.<Rigidbody>().velocity.y < maxJumpVerticalVelocity){
 			if(currentCrouchWeight > minCrouchWeight){
 				applyJump = true;
 			}
@@ -381,14 +381,14 @@ function Jump(){
 			}
 		}
 	}
-	if(Input.GetButtonUp(jumpButton) && groundDistance < maxJumpGroundDistance && rigidbody.velocity.y < maxJumpVerticalVelocity){
+	if(Input.GetButtonUp(jumpButton) && groundDistance < maxJumpGroundDistance && GetComponent.<Rigidbody>().velocity.y < maxJumpVerticalVelocity){
 		applyJump = true;
 	}
 	
 	if(dangle) applyJump = false;
 	
 	if(applyJump && !lockJump){
-		rigidbody.velocity.y = jumpVelocity;
+		GetComponent.<Rigidbody>().velocity.y = jumpVelocity;
 		lockJump = true;
 		lastJumpTime = Time.time;
 	}
@@ -397,7 +397,7 @@ function Jump(){
 		lockJump = false;
 	}
 	
-	if(groundDistance < landingCrouchGroundDistance && rigidbody.velocity.y < landingCrouchVerticalVelocity){
+	if(groundDistance < landingCrouchGroundDistance && GetComponent.<Rigidbody>().velocity.y < landingCrouchVerticalVelocity){
 		currentLandingCrouch = 1.0;
 		currentCrouchWeight = 1.0;
 	}
@@ -422,12 +422,12 @@ function Underwater(){
 	underwater = false;
 	var waterHit : RaycastHit;
 	for(var waterObject : GameObject in waterObjects){
-		if(transform.position.x < waterObject.collider.bounds.max.x
-		&& transform.position.x > waterObject.collider.bounds.min.x
-		&& transform.position.z < waterObject.collider.bounds.max.z
-		&& transform.position.z > waterObject.collider.bounds.min.z){
+		if(transform.position.x < waterObject.GetComponent.<Collider>().bounds.max.x
+		&& transform.position.x > waterObject.GetComponent.<Collider>().bounds.min.x
+		&& transform.position.z < waterObject.GetComponent.<Collider>().bounds.max.z
+		&& transform.position.z > waterObject.GetComponent.<Collider>().bounds.min.z){
 			
-			if(waterObject.collider.Raycast(ray, waterHit, Mathf.Infinity)){
+			if(waterObject.GetComponent.<Collider>().Raycast(ray, waterHit, Mathf.Infinity)){
 				underwater = true;
 				waterSurfaceDistance = waterHit.distance;
 			}
@@ -436,13 +436,13 @@ function Underwater(){
 	
 	if(underwater){
 		if(Time.time > lastWaterJumpOutTime + waterJumpOutNoDragTime) targetSwimWeight = 1.0;
-		rigidbody.drag = waterDrag;
-		rigidbody.useGravity = false;
+		GetComponent.<Rigidbody>().drag = waterDrag;
+		GetComponent.<Rigidbody>().useGravity = false;
 	}
 	else{
 		targetSwimWeight = 0.0;
-		rigidbody.drag = 0;
-		rigidbody.useGravity = true;
+		GetComponent.<Rigidbody>().drag = 0;
+		GetComponent.<Rigidbody>().useGravity = true;
 	}
 
 	targetSwimVerticalInput = 0.0;
@@ -450,8 +450,8 @@ function Underwater(){
 	if(Input.GetButton(crouchButton)) targetSwimVerticalInput -= 1.0;
 	
 	if(underwater && waterSurfaceDistance < waterJumpOutDistance && Input.GetButton(jumpButton)){
-		rigidbody.drag = 0.0;
-		rigidbody.velocity.y = waterJumpOutVelocity;
+		GetComponent.<Rigidbody>().drag = 0.0;
+		GetComponent.<Rigidbody>().velocity.y = waterJumpOutVelocity;
 		lastWaterJumpOutTime = Time.time;
 	}
 }
@@ -484,8 +484,8 @@ function Sword(){
 					sword = true;
 					pickingUpSword = true;
 					currentSword = swordObject.transform;
-					Destroy(currentSword.rigidbody);
-					currentSword.collider.enabled = false;
+					Destroy(currentSword.GetComponent.<Rigidbody>());
+					currentSword.GetComponent.<Collider>().enabled = false;
 					stance = true;
 										
 					//Find the corret place to stand in order to pick up the sword.
@@ -590,5 +590,5 @@ function SetAnimatorValues(){
 	animator.SetLayerWeight(3, currentSwimWeight);
 	
 	//Velocity.
-	animator.SetFloat("Vertical Velocity", rigidbody.velocity.y);
+	animator.SetFloat("Vertical Velocity", GetComponent.<Rigidbody>().velocity.y);
 }

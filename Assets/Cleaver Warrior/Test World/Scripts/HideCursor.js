@@ -10,7 +10,7 @@ function Start () {
 }
 
 function Update () {
-	Screen.showCursor = showCursor;
+	Cursor.visible = showCursor;
 	Screen.lockCursor = lockCursor;
 	if(Input.GetKeyDown(toggleKey)){
 		showCursor = !showCursor;

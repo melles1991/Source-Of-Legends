@@ -40,12 +40,12 @@ function Update () {
 	var hit : RaycastHit;	
 			
 	for(var waterObject : GameObject in waterObjects){
-		if(transform.position.x < waterObject.collider.bounds.max.x
-		&& transform.position.x > waterObject.collider.bounds.min.x
-		&& transform.position.z < waterObject.collider.bounds.max.z
-		&& transform.position.z > waterObject.collider.bounds.min.z){
+		if(transform.position.x < waterObject.GetComponent.<Collider>().bounds.max.x
+		&& transform.position.x > waterObject.GetComponent.<Collider>().bounds.min.x
+		&& transform.position.z < waterObject.GetComponent.<Collider>().bounds.max.z
+		&& transform.position.z > waterObject.GetComponent.<Collider>().bounds.min.z){
 			ray = Ray(transform.position, Vector3.up);
-			if(waterObject.collider.Raycast(ray, hit, Mathf.Infinity)){
+			if(waterObject.GetComponent.<Collider>().Raycast(ray, hit, Mathf.Infinity)){
 				underwater = true;
 				underwater_NeedsUpdate = true;	
 			}

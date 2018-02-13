@@ -3,7 +3,12 @@ guid: d749d513fd8617b4e9f20a48b11e1281
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Shroom03
+    11100000: //RootNode
   materials:
     importMaterials: 0
     materialName: 0
@@ -14,6 +19,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "Time of Day/Skybox"
@@ -20,7 +22,7 @@ Shader "Time of Day/Skybox"
 	v2f vert(appdata_base v) {
 		v2f o;
 
-		o.position = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.position = UnityObjectToClipPos(v.vertex);
 
 		float3 vertex = normalize(mul((float3x3)TOD_World2Sky, mul((float3x3)unity_ObjectToWorld, v.vertex.xyz)));
 
