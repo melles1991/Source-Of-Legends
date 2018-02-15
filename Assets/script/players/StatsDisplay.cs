@@ -20,8 +20,7 @@ public class StatsDisplay : MonoBehaviour {
 	public Text textSTR;
 	public Text textAGL;
 	public Text textDamage;
-	public Text textSpeed;
-	public Text textPoinStat;
+//	public Text textSpeed;
 
 
     void Start()
@@ -32,7 +31,7 @@ public class StatsDisplay : MonoBehaviour {
 
 	void Update (){
 		PlayerStats PlayerSt = (PlayerStats)Char.GetComponent("PlayerStats");
-		float curLvl = PlayerSt.CurLvl;
+		int curLvl = PlayerSt.CurLvl;
 		float Hp = PlayerSt.MaxHP;
 		float Energy = PlayerSt.Energy;
 		float STAM = PlayerSt.STA;
@@ -40,10 +39,9 @@ public class StatsDisplay : MonoBehaviour {
 		float AGLI = PlayerSt.AGL;
 		float MinDAM = PlayerSt.MinDAM;
 		float MaxDAM = PlayerSt.MaxDAM;
-		float WSpeed = PlayerSt.WSpeed;
-		float RSpeed = PlayerSt.RSpeed;
-		float SSpeed = PlayerSt.SSpeed;
-		int PointStats = PlayerSt.pointstat;
+//		float WSpeed = PlayerSt.WSpeed;
+//		float RSpeed = PlayerSt.RSpeed;
+//		float SSpeed = PlayerSt.SSpeed;
 
 
 		if (Input.GetKeyDown (KeyCode.P)) 
@@ -59,18 +57,15 @@ public class StatsDisplay : MonoBehaviour {
 			}
 		}
 	
-		textLv.text =curLvl ;
-		textHp.text =(int)Hp
+		textLv.text = " " + (int)curLvl ;
+		textHp.text = " " + (int)Hp;
+		textSTA.text = " " + (int)STAM;
+		textSTR.text = " " + (int)STRE;
+		textAGL.text = " " + (int)AGLI;
 
 
-		textSTA.text =(int)STAM;
-		textSTR.text =(int)STRE;
-		textAGL.text =(int)AGLI;
-		textPoinStat.text =PointStats;
-
-
-		textDamage.text =MinDAM+" - "+MaxDAM;
-		textSpeed.text ="РҐРѕРґСЊР±С‹: "+ WSpeed+"   Р‘РµРіР°: "+RSpeed+"   РџР»Р°РІР°РЅСЊСЏ: "+SSpeed;
+		textDamage.text = MinDAM+" - " + MaxDAM;
+//		textSpeed.text = WSpeed+"/" + RSpeed + "/" + SSpeed;
 //	GUI.Label (new Rect(10, 110,300,300), "  "+(int)stats.HealthMax);
 //	GUI.Label (new Rect(10, 125,300,300), "  "+(int)stats.EnergyMax);
 //	GUI.Label (new Rect(10, 140,300,300), " РћРїС‹С‚: "+stats.EXP);

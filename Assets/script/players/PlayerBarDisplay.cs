@@ -11,7 +11,6 @@ public class PlayerBarDisplay : MonoBehaviour {
 	public PlayerStats Char; // Объект на котором висят статы 
     public Slider slider;
     public Text textHp;
-	public Text textName;
 	public Text textLv;
 
 
@@ -36,12 +35,11 @@ public class PlayerBarDisplay : MonoBehaviour {
 		float MaxHealth = PlayerSt.stats.HealthMax;
 		float CurHealth = PlayerSt.CurHealth;
 		float needExp = PlayerSt.stats.EXP;
-		float curLvl = PlayerSt.CurLvl;
+		int curLvl = PlayerSt.CurLvl;
 		slider.maxValue = MaxHealth;
         slider.value = CurHealth;
 		textHp.text = (int)CurHealth + "/"+ (int)MaxHealth;
-		textName.text = "Player";
-        textLv.text = "LV." + curLvl;
+		textLv.text = " " + curLvl;
 
 
     }
