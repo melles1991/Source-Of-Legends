@@ -41,7 +41,7 @@ public class PlayerBarDisplay : MonoBehaviour {
         slider.value = CurHealth;
 		textHp.text = (int)CurHealth + "/"+ (int)MaxHealth;
 		textName.text = "Player";
-		textLv.text = "LV." + curLvl;
+        textLv.text = "LV." + curLvl;
 
 
     }

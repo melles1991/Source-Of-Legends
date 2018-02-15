@@ -1,7 +1,7 @@
-/// <summary>
+﻿/// <summary>
 /// Player bar display.
-/// Выводит на экран бары игрока
-/// Вешать на игрока
+/// Р’С‹РІРѕРґРёС‚ РЅР° СЌРєСЂР°РЅ Р±Р°СЂС‹ РёРіСЂРѕРєР°
+/// Р’РµС€Р°С‚СЊ РЅР° РёРіСЂРѕРєР°
 /// </summary>
 using UnityEngine;
 using System.Collections;
@@ -11,9 +11,9 @@ using stats;
 
 
 public class StatsDisplay : MonoBehaviour {
-	public PlayerStats Char; // Объект на котором висят статы 
-	public GameObject ListStat; // ui panel  инвентаря 
-	public GameObject butPlus; // ui panel  инвентаря 
+	public PlayerStats Char; // РћР±СЉРµРєС‚ РЅР° РєРѕС‚РѕСЂРѕРј РІРёСЃСЏС‚ СЃС‚Р°С‚С‹ 
+	public GameObject ListStat; // ui panel  РёРЅРІРµРЅС‚Р°СЂСЏ 
+	public GameObject butPlus; // ui panel  РёРЅРІРµРЅС‚Р°СЂСЏ 
 	public Text textLv;
 	public Text textHp;
 	public Text textSTA;
@@ -59,23 +59,23 @@ public class StatsDisplay : MonoBehaviour {
 			}
 		}
 	
-		textLv.text ="Уровень: "+ curLvl ;
-		textHp.text ="Жизнь: "+ (int)Hp+ " / "+"Енергия: "+ (int)Energy;
+		textLv.text =curLvl ;
+		textHp.text =(int)Hp
 
 
-		textSTA.text ="Выносливость: "+ (int)STAM;
-		textSTR.text ="Сила: "+ (int)STRE;
-		textAGL.text ="Ловкость: "+ (int)AGLI;
-		textPoinStat.text ="Поинтов : "+ PointStats;
+		textSTA.text =(int)STAM;
+		textSTR.text =(int)STRE;
+		textAGL.text =(int)AGLI;
+		textPoinStat.text =PointStats;
 
 
-		textDamage.text ="Урон: "+ MinDAM+" - "+MaxDAM;
-		textSpeed.text ="Ходьбы: "+ WSpeed+"   Бега: "+RSpeed+"   Плаванья: "+SSpeed;
+		textDamage.text =MinDAM+" - "+MaxDAM;
+		textSpeed.text ="РҐРѕРґСЊР±С‹: "+ WSpeed+"   Р‘РµРіР°: "+RSpeed+"   РџР»Р°РІР°РЅСЊСЏ: "+SSpeed;
 //	GUI.Label (new Rect(10, 110,300,300), "  "+(int)stats.HealthMax);
 //	GUI.Label (new Rect(10, 125,300,300), "  "+(int)stats.EnergyMax);
-//	GUI.Label (new Rect(10, 140,300,300), " Опыт: "+stats.EXP);
-//	GUI.Label (new Rect(10, 165,300,300), " Выносливость: "+(int)stats.Stamina);
-//	GUI.Label (new Rect(10, 180,300,300), " Сила: "+(int)stats.Strengh);
+//	GUI.Label (new Rect(10, 140,300,300), " РћРїС‹С‚: "+stats.EXP);
+//	GUI.Label (new Rect(10, 165,300,300), " Р’С‹РЅРѕСЃР»РёРІРѕСЃС‚СЊ: "+(int)stats.Stamina);
+//	GUI.Label (new Rect(10, 180,300,300), " РЎРёР»Р°: "+(int)stats.Strengh);
 //	GUI.Label (new Rect(10, 195,300,300), "  "+(int)stats.Agility);
 //	GUI.Label (new Rect(10, 230,300,300), " minDamage: "+stats.MinDamage);
 //	GUI.Label (new Rect(10, 245,300,300), " maxDamage: "+stats.MaxDamage);
