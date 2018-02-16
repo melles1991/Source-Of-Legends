@@ -1,0 +1,2180 @@
+fileFormatVersion: 2
+guid: a7cb8c1b9bbdae844951ca10ef3ec429
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: abdomen
+    100002: //RootNode
+    100004: brow1_L
+    100006: brow1_R
+    100008: brow_L
+    100010: brow_R
+    100012: chest
+    100014: eye_L
+    100016: eye_R
+    100018: head
+    100020: hip
+    100022: jaw
+    100024: lCollar
+    100026: lFoot
+    100028: lForeArm
+    100030: lHand
+    100032: lIndex1
+    100034: lIndex2
+    100036: lMid1
+    100038: lMid2
+    100040: lPinky1
+    100042: lPinky2
+    100044: lRing1
+    100046: lRing2
+    100048: lShin
+    100050: lShldr
+    100052: lThigh
+    100054: lThumb1
+    100056: lThumb2
+    100058: Mesh_002_Plane_014_Plane_001
+    100060: Mesh_002_Plane_014_Plane_002
+    100062: Mesh_002_Plane_014_Plane_004
+    100064: Mesh_002_Plane_014_Plane_006
+    100066: Mesh_005_Plane_010_Plane_001
+    100068: Mesh_015_Plane_002_Plane_000
+    100070: neck
+    100072: Plane
+    100074: rCollar
+    100076: rFoot
+    100078: rForeArm
+    100080: rHand
+    100082: rIndex1
+    100084: rIndex2
+    100086: rMid1
+    100088: rMid2
+    100090: rPinky1
+    100092: rPinky2
+    100094: rRing1
+    100096: rRing2
+    100098: rShin
+    100100: rShldr
+    100102: rThigh
+    100104: rThumb1
+    100106: rThumb2
+    100108: sword_1_noro
+    100110: wood
+    400000: abdomen
+    400002: //RootNode
+    400004: brow1_L
+    400006: brow1_R
+    400008: brow_L
+    400010: brow_R
+    400012: chest
+    400014: eye_L
+    400016: eye_R
+    400018: head
+    400020: hip
+    400022: jaw
+    400024: lCollar
+    400026: lFoot
+    400028: lForeArm
+    400030: lHand
+    400032: lIndex1
+    400034: lIndex2
+    400036: lMid1
+    400038: lMid2
+    400040: lPinky1
+    400042: lPinky2
+    400044: lRing1
+    400046: lRing2
+    400048: lShin
+    400050: lShldr
+    400052: lThigh
+    400054: lThumb1
+    400056: lThumb2
+    400058: Mesh_002_Plane_014_Plane_001
+    400060: Mesh_002_Plane_014_Plane_002
+    400062: Mesh_002_Plane_014_Plane_004
+    400064: Mesh_002_Plane_014_Plane_006
+    400066: Mesh_005_Plane_010_Plane_001
+    400068: Mesh_015_Plane_002_Plane_000
+    400070: neck
+    400072: Plane
+    400074: rCollar
+    400076: rFoot
+    400078: rForeArm
+    400080: rHand
+    400082: rIndex1
+    400084: rIndex2
+    400086: rMid1
+    400088: rMid2
+    400090: rPinky1
+    400092: rPinky2
+    400094: rRing1
+    400096: rRing2
+    400098: rShin
+    400100: rShldr
+    400102: rThigh
+    400104: rThumb1
+    400106: rThumb2
+    400108: sword_1_noro
+    400110: wood
+    4300000: wood
+    4300002: Mesh_002_Plane_014_Plane_006
+    4300004: Mesh_002_Plane_014_Plane_004
+    4300006: Mesh_002_Plane_014_Plane_002
+    4300008: Mesh_002_Plane_014_Plane_001
+    4300010: Mesh_015_Plane_002_Plane_000
+    4300012: Mesh_005_Plane_010_Plane_001
+    4300014: Plane
+    7400000: Jump
+    7400002: Attack
+    7400004: Default Take0
+    7400006: run
+    7400008: stop
+    7400010: Walk 1
+    7400012: walk 2
+    7400014: sit on ground
+    7400016: sit idle
+    7400018: Get up
+    7400020: Talk
+    7400022: Turn left
+    7400024: Turn right
+    7400026: Punch
+    7400028: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Mesh_002_Plane_014_Plane_001
+    13700002: Mesh_002_Plane_014_Plane_002
+    13700004: Mesh_002_Plane_014_Plane_004
+    13700006: Mesh_002_Plane_014_Plane_006
+    13700008: Mesh_005_Plane_010_Plane_001
+    13700010: Mesh_015_Plane_002_Plane_000
+    13700012: Plane
+    13700014: wood
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: sword_1_noro
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: sword_1_noro
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stop
+      takeName: sword_1_noro
+      firstFrame: 136
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk 1
+      takeName: sword_1_noro
+      firstFrame: 184
+      lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk 2
+      takeName: sword_1_noro
+      firstFrame: 222
+      lastFrame: 268
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sit on ground
+      takeName: sword_1_noro
+      firstFrame: 284
+      lastFrame: 448
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sit idle
+      takeName: sword_1_noro
+      firstFrame: 488
+      lastFrame: 865
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Get up
+      takeName: sword_1_noro
+      firstFrame: 933
+      lastFrame: 1118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Talk
+      takeName: sword_1_noro
+      firstFrame: 1341
+      lastFrame: 1427
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn left
+      takeName: sword_1_noro
+      firstFrame: 1541
+      lastFrame: 1564
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn right
+      takeName: sword_1_noro
+      firstFrame: 1685
+      lastFrame: 1708
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: sword_1_noro
+      firstFrame: 2423
+      lastFrame: 2477
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Punch
+      takeName: sword_1_noro
+      firstFrame: 2628
+      lastFrame: 2662
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: sword_1_noro
+      firstFrame: 2850
+      lastFrame: 2996
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_001
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_002
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_004
+        weight: 1
+      - path: Mesh_002_Plane_014_Plane_006
+        weight: 1
+      - path: Mesh_005_Plane_010_Plane_001
+        weight: 1
+      - path: Mesh_015_Plane_002_Plane_000
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sword_1_noro
+        weight: 1
+      - path: sword_1_noro/hip
+        weight: 1
+      - path: sword_1_noro/hip/abdomen
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lIndex1/lIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lMid1/lMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lPinky1/lPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lRing1/lRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/lCollar/lShldr/lForeArm/lHand/lThumb1/lThumb2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow1_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/brow_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_L
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/eye_R
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/neck/head/jaw
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rIndex1/rIndex2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rMid1/rMid2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rPinky1/rPinky2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rRing1/rRing2
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1
+        weight: 1
+      - path: sword_1_noro/hip/abdomen/chest/rCollar/rShldr/rForeArm/rHand/rThumb1/rThumb2
+        weight: 1
+      - path: sword_1_noro/hip/lThigh
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin
+        weight: 1
+      - path: sword_1_noro/hip/lThigh/lShin/lFoot
+        weight: 1
+      - path: sword_1_noro/hip/rThigh
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin
+        weight: 1
+      - path: sword_1_noro/hip/rThigh/rShin/rFoot
+        weight: 1
+      - path: wood
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
