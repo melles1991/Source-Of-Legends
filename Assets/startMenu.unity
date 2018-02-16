@@ -985,6 +985,7 @@ GameObject:
   - component: {fileID: 595697275}
   - component: {fileID: 595697277}
   - component: {fileID: 595697276}
+  - component: {fileID: 595697278}
   m_Layer: 5
   m_Name: Login panel
   m_TagString: Untagged
@@ -1048,6 +1049,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 595697274}
+--- !u!114 &595697278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 595697274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd532a2a91940f48a818ad729227793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &607190388
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,7 +1209,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 464669071}
-        m_MethodName: exit_game
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2156,7 +2168,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 464669071}
-        m_MethodName: exit_game
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

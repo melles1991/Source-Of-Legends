@@ -113,6 +113,8 @@
      <Compile Include="Assets\loading\LoadScene.cs" />
      <Compile Include="Assets\loading\Scene1.cs" />
      <Compile Include="Assets\script\MouseOrbit.cs" />
+     <Compile Include="Assets\script\loading\SceneLoading.cs" />
+     <Compile Include="Assets\script\monterAI\AnemyAI.cs" />
      <Compile Include="Assets\script\moveCam.cs" />
      <Compile Include="Assets\script\movePlayer.cs" />
      <Compile Include="Assets\script\players\FirstPersonController.cs" />
