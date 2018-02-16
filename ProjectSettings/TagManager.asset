@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Weapon
   - Monster
+  - minimaps
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Minimap
   - 
   - 
   - 

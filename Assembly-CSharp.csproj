@@ -114,7 +114,6 @@
      <Compile Include="Assets\loading\Scene1.cs" />
      <Compile Include="Assets\script\MouseOrbit.cs" />
      <Compile Include="Assets\script\loading\SceneLoading.cs" />
-     <Compile Include="Assets\script\monterAI\AnemyAI.cs" />
      <Compile Include="Assets\script\moveCam.cs" />
      <Compile Include="Assets\script\movePlayer.cs" />
      <Compile Include="Assets\script\players\FirstPersonController.cs" />
@@ -152,6 +151,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\NatureStarterKit2\info.txt" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
