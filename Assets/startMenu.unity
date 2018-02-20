@@ -838,7 +838,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 500
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1980, y: 1024}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -2261,8 +2261,8 @@ Camera:
   m_GameObject: {fileID: 2142648012}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.058823533, g: 0.04705883, b: 0.039215688, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0

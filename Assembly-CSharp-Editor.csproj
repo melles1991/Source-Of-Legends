@@ -194,6 +194,9 @@
      <None Include="Assets\Time of Day\Assets\Shaders\PP Shadows.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
      <None Include="Assets\Ceto\Shaders\OceanMaskBody.cginc" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>D:/UNITY/Progect/Source-Of-Legends/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/UNITY/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
