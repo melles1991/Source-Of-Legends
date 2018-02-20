@@ -278,6 +278,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\Time of Day\Assets\Shaders\PP Screen Clear.shader" />
      <None Include="Assets\Ceto\Shaders\OceanBRDF.cginc" />
+     <None Include="Assets\Adventurer\Readme.txt" />
      <None Include="Assets\Ceto\Shaders\OceanTopSide_Transparent.shader" />
      <None Include="Assets\UI\miniMap\miniMapSheder.shader" />
      <None Include="Assets\Ceto\Shaders\InitDisplacement.shader" />

@@ -205,7 +205,7 @@ namespace Ceto
                 //Height and clip masks should also be readable.
                 importer.wrapMode = TextureWrapMode.Clamp;
                 importer.filterMode = FilterMode.Bilinear;
-                importer.textureType = TextureImporterType.Advanced;
+                importer.textureType = TextureImporterType.Default;
                 importer.mipmapEnabled = false;
                 importer.isReadable = isReadable;
 
