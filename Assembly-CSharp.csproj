@@ -207,8 +207,6 @@
      <Compile Include="Assets\XML\XMLRules\VariableType.cs" />
      <Compile Include="Assets\XML\XMLRules\XMLRulesDoc.cs" />
      <Compile Include="Assets\XML\XMLRules\XMLRulesType.cs" />
-     <Compile Include="Assets\loading\LoadScene.cs" />
-     <Compile Include="Assets\loading\Scene1.cs" />
      <Compile Include="Assets\script\MouseOrbit.cs" />
      <Compile Include="Assets\script\loading\SceneLoading.cs" />
      <Compile Include="Assets\script\moveCam.cs" />
